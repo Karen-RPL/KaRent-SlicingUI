@@ -1,0 +1,21 @@
+.title {
+  font-size: 40px;
+  color: #4d77ff;
+  margin-bottom: 42px;
+}
+
+.label {
+  margin-top: 28px;
+}
+
+.input {
+  margin-top: 4px;
+}
+
+button {
+  margin-top: 28px;
+}
+
+.form {
+  padding: 5em 6em;
+}
