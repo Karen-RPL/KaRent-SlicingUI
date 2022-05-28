@@ -1,9 +1,23 @@
-$('button').click(function(){
+$("button")
+  .click(function () {
     var $this = $(this);
-    $this.toggleClass('following')
-    if($this.is('.following')){
-        $this.addClass('wait');
+    $this.toggleClass("following");
+    if ($this.is(".following")) {
+      $this.addClass("wait");
     }
-  }).on('mouseleave',function(){
-    $(this).removeClass('wait');
   })
+  .on("mouseleave", function () {
+    $(this).removeClass("wait");
+  });
+
+$("button")
+  .click(function () {
+    var $this = $(this);
+    $this.toggleClass("payment-method");
+    if ($this.is(".payment-method")) {
+      $this.addClass("wait");
+    }
+  })
+  .on("mouseleave", function () {
+    $(this).removeClass("wait");
+  });

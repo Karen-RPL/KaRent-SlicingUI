@@ -433,6 +433,33 @@ button.following:not(.wait):hover .msg-unfollow {
   color: rgba(21, 29, 59, 0.75);
   opacity: 75%;
 }
+.payment {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px 114px 24px 24px;
+  width: 360px;
+  height: auto;
+  background: #ffffff;
+  border: 1px solid #c4d2ff;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.payment h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
+.payment label {
+  font-family: "TT Commons";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(21, 29, 59, 0.75);
+  opacity: 75%;
+}
 .price {
   display: flex;
   flex-direction: column;
@@ -484,6 +511,19 @@ button.following:not(.wait):hover .msg-unfollow {
   line-height: 19px;
   color: var(--main-color);
 }
+.payment .payment-method-btn {
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+}
+.payment .payment-method {
+  width: 300px;
+  background-color: #efeff1;
+  color: black;
+}
+/* .payment .payment-method span img {
+  margin-left: -150px;
+} */
 .ctn {
   margin-left: 12px;
   display: flex;
