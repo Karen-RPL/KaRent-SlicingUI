@@ -1,0 +1,13 @@
+.btn-secondary {
+  color: var(--main-color);
+  background-color: var(--surface-color);
+  border-color: #8ad3d3;
+  border-radius: 8px;
+}
+
+.btn-secondary:hover {
+  color: var(--main-color);
+  background-color: #dbe4ff;
+  border-color: #8ad3d3;
+  border-radius: 8px;
+}
