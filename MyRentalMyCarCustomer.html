@@ -273,6 +273,8 @@
                           height: 42px;
                           margin-left: 410px;
                         "
+                        data-toggle="modal"
+                        data-target="#modal-2"
                       >
                         Add Car
                       </button>
@@ -371,6 +373,183 @@
         </div>
       </footer>
     </section>
+    <!-- modal 2  -->
+    <div
+      id="modal-2"
+      class="modal fade show"
+      role="dialog"
+      tabindex="-1"
+      style="border-radius: 8px"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div
+            class="modal-header"
+            style="border-bottom: 2px solid var(--surface-color)"
+          >
+            <h4 class="modal-title font-weight-bold" style="font-size: 28px">
+              My Car
+            </h4>
+            <button
+              class="close"
+              type="button"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p class="p_400" style="font-size: 20px">Car Name</p>
+            <input
+              class="form-control-lg"
+              type="text"
+              style="
+                border-radius: 8px;
+                box-shadow: 0px 0px 4px 2px var(--surface-color);
+                border-width: 1px;
+                border-color: var(--surface-color);
+                min-width: 100%;
+                height: 42px;
+                margin-top: -16px;
+              "
+              placeholder="Enter your car name"
+            />
+            <p class="p_400" style="font-size: 20px; margin-top: 24px">
+              Description
+            </p>
+            <input
+              class="form-control-lg d-xl-flex"
+              type="text"
+              style="
+                border-radius: 8px;
+                box-shadow: 0px 0px 4px 2px var(--surface-color);
+                border-width: 1px;
+                border-color: var(--surface-color);
+                min-width: 100%;
+                height: 42px;
+                margin-top: -14px;
+              "
+              placeholder="Enter your description"
+            />
+            <p class="p_400" style="font-size: 20px; margin-top: 24px">
+              Passanger
+            </p>
+            <input
+              class="form-control-lg d-xl-flex"
+              type="text"
+              style="
+                border-radius: 8px;
+                box-shadow: 0px 0px 4px 2px var(--surface-color);
+                border-width: 1px;
+                border-color: var(--surface-color);
+                min-width: 100%;
+                height: 42px;
+                margin-top: -14px;
+              "
+              placeholder="Choose total passangers"
+            />
+            <p class="p_400" style="font-size: 20px; margin-top: 24px">Doors</p>
+            <input
+              class="form-control-lg d-xl-flex"
+              type="text"
+              style="
+                border-radius: 8px;
+                box-shadow: 0px 0px 4px 2px var(--surface-color);
+                border-width: 1px;
+                border-color: var(--surface-color);
+                min-width: 100%;
+                height: 42px;
+                margin-top: -14px;
+              "
+              placeholder="Choose total doors"
+            />
+            <p class="p_400" style="font-size: 20px; margin-top: 24px">Fuel</p>
+            <input
+              class="form-control-lg d-xl-flex"
+              type="text"
+              style="
+                border-radius: 8px;
+                box-shadow: 0px 0px 4px 2px var(--surface-color);
+                border-width: 1px;
+                border-color: var(--surface-color);
+                min-width: 100%;
+                height: 42px;
+                margin-top: -14px;
+              "
+              placeholder="Choose type fuel"
+            />
+            <p class="p_400" style="font-size: 20px; margin-top: 24px">
+              Register
+            </p>
+            <input
+              class="form-control-lg d-xl-flex"
+              type="text"
+              style="
+                border-radius: 8px;
+                box-shadow: 0px 0px 4px 2px var(--surface-color);
+                border-width: 1px;
+                border-color: var(--surface-color);
+                min-width: 100%;
+                height: 42px;
+                margin-top: -14px;
+              "
+              placeholder="Enter register date"
+            />
+            <p class="p_400" style="font-size: 20px; margin-top: 24px">
+              Gearbox
+            </p>
+            <input
+              class="form-control-lg d-xl-flex"
+              type="text"
+              style="
+                border-radius: 8px;
+                box-shadow: 0px 0px 4px 2px var(--surface-color);
+                border-width: 1px;
+                border-color: var(--surface-color);
+                min-width: 100%;
+                height: 42px;
+                margin-top: -14px;
+              "
+              placeholder="Choose type gearbox"
+            />
+            <p class="p_400" style="font-size: 20px; margin-top: 24px">
+              Air Conditioning
+            </p>
+            <input
+              class="form-control-lg d-xl-flex"
+              type="text"
+              style="
+                border-radius: 8px;
+                box-shadow: 0px 0px 4px 2px var(--surface-color);
+                border-width: 1px;
+                border-color: var(--surface-color);
+                min-width: 100%;
+                height: 42px;
+                margin-top: -14px;
+              "
+              placeholder="Choose option"
+            />
+          </div>
+          <div class="modal-footer d-xl-flex justify-content-xl-start">
+            <button
+              class="btn btn-primary span_500"
+              type="button"
+              style="
+                width: 120px;
+                height: 42px;
+                background: var(--main-color);
+                border-radius: 8px;
+                font-size: 20px;
+                text-align: center;
+              "
+            >
+              Save
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/js/bootstrap.bundle.min.js"></script>
   </body>
